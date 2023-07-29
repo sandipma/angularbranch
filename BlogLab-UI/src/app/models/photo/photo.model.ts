@@ -8,7 +8,8 @@ export class Photo {
         public description: string,
         public publishDate: Date,
         public updateDate: Date,
-        public deleteConfirm: boolean = false
+        public deleteConfirm: boolean = false,
+        public deletettConfirm: boolean = false
     ) {}
 
 }
